@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## This function checks to see whether m is set to NULL. If FALSE
 ## then the function returns the cached m, if TRUE the function performs
-## the solve() function on x
+## the solve() function on x 
 
 cacheSolve <- function(x, ...) {
   m <- x$getinverse()
